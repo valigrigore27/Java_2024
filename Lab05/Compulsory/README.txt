@@ -1,3 +1,3 @@
-Am facut in folder-ul laboratorului un mainDirectory in care am creat mai multe subdirectoare cu numele persoanelor. In java am creat clase record pentru Person si Document si inca o clasa responsabila cu operatiuni externe.
+Am facut in folder-ul laboratorului un mainDirectory in care am creat mai multe subdirectoare cu numele persoanelor. In java am creat clase record pentru Person(String name, int id) si Document(String name, String format) si inca o clasa responsabila cu operatiuni externe (un getter de afisare a path-ului mainDirectory-ului, o functie de afisare a tuturor subdirectoarelor, metoda de addDocument, deleteDocument, pathOfPerson - path-ul subdirectorului persoanei, pathOfAFileOfDirectorPerson - path-ul unui anumit file cu extensia aferenta).
 
 In main am creat un obiect care reprezintă continutul stocat in mainDirectory si am afisat conținutului depozitului (fără conținutul fișierelor);
