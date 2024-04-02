@@ -1,0 +1,4 @@
+Am facut clasa DocumentManagementShell care functioneaza ca un shell, unde introducem mai multe comenzi (list, add, delete) care apeleaza metode aferente din DocumentRepositoryManager.
+Apoi am creat pentru fiecare din aceste comenzi si cate o clasa(AddCommand, DeleteCommand, ListCommand) pe care am pus-o intr-un package Commands pentru a simula aceste functionalitati si in alt mod. Am adaugat in acest package si comenzile de "ViewCommand", "ReportCommand" si "ExportCommand", ,pentru a deschide un document folosind aplicația nativă a sistemului de operare, penntru a crea si deschide un raport HTML reprezentând conținutul depozitului, pentru exporta depozitul într-un fișier extern folosind formatul JSON.
+
+Am creat si exceptii personalizate pentru fiecare comanda in parte si apoi am creat si o arhiva JAR executabila pentru a rula codul din linia de comanda.
