@@ -1,0 +1,3 @@
+In casa Main parcurg lista de playeri si vad care are punctajul cel mai mare, dupa care fac si verificarea ca doi playeri sa nu aiba acelasi punctaj (remiza). Euristica consta in faptul ca player ul se va uita in bag si va incerca sa extraga, daca exista, un token pentru care prima valoare este egala cu cea de-a doua valoare a ultimului token extras de el. (candidate.getFirst() == lastToken.getSecond()).
+In Player, in metoda run(), am utilizat o abordare de tip wait-notify, in care playerii vor astepta sa fie notificati ca pot extrage un token atunci cand vor sa faca asta.
+Am creat si clasa GameTimer in care am o valoare booleana timeExpired care va indica faptul ca timpul setat de mine in clasa Main s-a scurs.
